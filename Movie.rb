@@ -4,7 +4,7 @@ class Movie
 	name_films = []
 
 	def initialize(movie_name) 
-		self.movie_name = movie_name
+		@movie_name = movie_name
 	end
 
 	attr_reader :movie_name
